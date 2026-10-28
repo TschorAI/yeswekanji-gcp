@@ -6,7 +6,7 @@
 - **Status:** in progress
 - **Created by:** leonardtschora
 - **Created on:** 2026-10-27
-- **Repository:** https://github.com/leonardtschora/yeswekanji-gcp
+- **Repository:** https://github.com/TschorAI/yeswekanji-gcp
 - **Shared drive and tasks:** personal project, own drive · task board https://github.com/users/leonardtschora/projects/17
 
 ## Index
