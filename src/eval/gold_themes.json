@@ -1,0 +1,12 @@
+[
+  {"theme": "la cuisine", "expect": "accept", "acceptable": "炊食肉飯皿味菜茶煮乳米麦酒塩糖油卵豆魚焼料理鍋汁酢甘辛菓粉蒸揚包丁膳箸杯飲麺餅鶏牛豚貝果粒漬熟苦冷蔵庫器"},
+  {"theme": "l'eau", "expect": "accept", "acceptable": "水湖湯海液河川滴滝湿雨潤泉池沼波洗流泳浴濁清澄渇氷汗涙浸漏港湾潮浮沈注汁溶洪濃淡江沢津泡泥漁汽蒸渓瀬渦漂洋"},
+  {"theme": "la météo", "expect": "accept", "acceptable": "曇候寒湿雨霧風霜嵐冬雪雷晴暑暖冷温天気雲虹涼季夏春秋乾凍露暴吹降陽日光照熱予報象"},
+  {"theme": "les animaux", "expect": "accept", "acceptable": "犬猫馬牛豚羊鳥魚虫象熊鹿猿蛇竜亀鶏貝獣畜牧飼群羽尾角毛巣卵蚊蜂鯨虎狩猟鳴"},
+  {"theme": "les couleurs", "expect": "accept", "acceptable": "色赤青白黒黄緑紫紅茶金銀灰朱藍彩染濃淡明暗光虹桃"},
+  {"theme": "l'école", "expect": "accept", "acceptable": "学校生先教習試験授業科室師徒塾宿題読書文字筆紙本帳算数問答練卒級年組班机板講義研究図館課単位修"},
+  {"theme": "les transports", "expect": "accept", "acceptable": "車電鉄駅道路船航空港便乗降運輸送通交旅行走輪線軌停渡橋機飛券符急速"},
+  {"theme": "asdfgh qwerty", "expect": "refuse", "kind": "gibberish"},
+  {"theme": "le nom de mon chat", "expect": "refuse", "kind": "personal"},
+  {"theme": "le cours du Bitcoin demain", "expect": "refuse", "kind": "information"}
+]

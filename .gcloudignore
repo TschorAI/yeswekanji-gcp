@@ -1,0 +1,11 @@
+# What `gcloud builds submit` uploads: same as .dockerignore. Without this file
+# gcloud would derive one from .gitignore and upload everything else.
+*
+!Dockerfile
+!pyproject.toml
+!uv.lock
+!src/
+src/**/__pycache__
+src/doc/
+src/ADR/
+src/eval/

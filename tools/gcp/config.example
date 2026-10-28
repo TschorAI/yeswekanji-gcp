@@ -1,0 +1,20 @@
+# Copy to config.env (gitignored) and fill in. Every tools/gcp/*.sh script reads it.
+# IDs here are not secrets, but they are account-specific: keep them out of git.
+
+PROJECT_ID="my-project-id"            # 6-30 chars, lowercase, digits, hyphens; permanent
+PROJECT_NAME="my-project"             # display name, can change
+BILLING_ACCOUNT="XXXXXX-XXXXXX-XXXXXX" # gcloud billing accounts list
+BUDGET_AMOUNT="10"                    # whole units of the billing account currency
+BUDGET_CURRENCY="EUR"                 # must match the billing account currency
+
+# Regions (see src/ADR/0001-regions-eu.md)
+BQ_LOCATION="EU"                      # BigQuery dataset
+VERTEX_LOCATION="eu"                  # Gemini and embeddings
+RUN_REGION="europe-west1"             # Cloud Run, Artifact Registry, Cloud Storage
+BQ_DATASET="kanji"                     # BigQuery dataset name
+AUDIO_BUCKET="my-project-id-audio"           # globally unique bucket name
+RUN_SA_NAME="my-app-run"                    # Cloud Run service account (6-30 chars)
+AR_REPO="my-app"                          # Artifact Registry Docker repository
+IMAGE_NAME="app"
+RUN_SERVICE="my-app"                      # Cloud Run service name
+DAILY_THEME_CAP="20"

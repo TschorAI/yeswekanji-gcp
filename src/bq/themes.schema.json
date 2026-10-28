@@ -1,0 +1,8 @@
+[
+  {"name": "id", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "name_fr", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "name_en", "type": "STRING", "mode": "NULLABLE"},
+  {"name": "kanji", "type": "STRING", "mode": "REPEATED", "description": "Ten kanji literals"},
+  {"name": "source", "type": "STRING", "mode": "NULLABLE", "description": "curated | generated"},
+  {"name": "created_at", "type": "TIMESTAMP", "mode": "NULLABLE", "description": "Set for generated themes"}
+]

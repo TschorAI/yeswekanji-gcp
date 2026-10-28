@@ -1,0 +1,13 @@
+[
+  {"name": "literal", "type": "STRING", "mode": "REQUIRED", "description": "The kanji character"},
+  {"name": "grade", "type": "INT64", "mode": "NULLABLE", "description": "KANJIDIC2 grade: 1-6 school, 8 other jouyou"},
+  {"name": "jlpt", "type": "INT64", "mode": "NULLABLE", "description": "Old 4-level JLPT scale, 4 = easiest"},
+  {"name": "freq", "type": "INT64", "mode": "NULLABLE", "description": "Newspaper frequency rank, 1 = most frequent"},
+  {"name": "stroke_count", "type": "INT64", "mode": "NULLABLE"},
+  {"name": "on", "type": "STRING", "mode": "REPEATED", "description": "On readings, katakana"},
+  {"name": "kun", "type": "STRING", "mode": "REPEATED", "description": "Kun readings, hiragana with KANJIDIC2 markers"},
+  {"name": "romaji_on", "type": "STRING", "mode": "REPEATED"},
+  {"name": "romaji_kun", "type": "STRING", "mode": "REPEATED"},
+  {"name": "meanings_en", "type": "STRING", "mode": "REPEATED"},
+  {"name": "meanings_fr", "type": "STRING", "mode": "REPEATED"}
+]

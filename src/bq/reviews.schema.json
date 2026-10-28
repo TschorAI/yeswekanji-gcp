@@ -1,0 +1,6 @@
+[
+  {"name": "ts", "type": "TIMESTAMP", "mode": "REQUIRED", "description": "Card flip time, UTC"},
+  {"name": "user_id", "type": "STRING", "mode": "REQUIRED", "description": "Anonymous session id"},
+  {"name": "literal", "type": "STRING", "mode": "REQUIRED"},
+  {"name": "theme_id", "type": "STRING", "mode": "NULLABLE"}
+]

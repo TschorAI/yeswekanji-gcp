@@ -1,0 +1,23 @@
+[project]
+name = "yeswekanji-gcp"
+version = "0.1.0"
+requires-python = ">=3.11"
+# Runtime deps only: the container installs these (uv sync --no-default-groups).
+dependencies = [
+    "google-cloud-bigquery>=3.46.2",
+    "google-cloud-storage>=3.17.1",
+    "google-cloud-texttospeech>=2.38.0",
+    "google-genai>=2.33.0",
+    "streamlit>=1.66.1",
+]
+
+[dependency-groups]
+# Local tools, kept out of the container: genau-kit is a private git repo Cloud Build cannot fetch.
+tools = ["genau-kit"]
+test = ["pytest"]
+
+[tool.uv]
+default-groups = ["tools"]
+
+[tool.uv.sources]
+genau-kit = { git = "https://github.com/Genau-AI/skills", subdirectory = "kit" }
